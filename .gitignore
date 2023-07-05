@@ -1,11 +1,11 @@
 # personal files
-notebooks/contain_encoders.ipynb
-notebooks/df4
-look_1.0-mdfl-health-insurance-cross-sell
-notebooks/deploy.ipynb
-notebooks/resume.ipynb
-notebooks/manual_performance_metrics.ipynb
-notebooks/manual_performance_metrics2.ipynb
+/notebooks/contain_encoders.ipynb
+/notebooks/df4
+/notebooks/look_1.0-mdfl-health-insurance-cross-sell.ipynb
+/notebooks/deploy.ipynb
+/notebooks/resume.ipynb
+/notebooks/manual_performance_metrics.ipynb
+/notebooks/manual_performance_metrics2.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
