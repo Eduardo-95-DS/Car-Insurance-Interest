@@ -4,13 +4,13 @@ from flask import Flask, request, Response
 from healthinsurance.HealthInsurance import HealthInsurance
 
 # loading model
-path = '/home/soturno/Desktop/pa04/'
-model = pickle.load( open( path + 'model/lgbm.pkl', 'rb' ) )
+#path = '/home/soturno/Desktop/pa04/'
+model = pickle.load(open('../model/lgbm.pkl', 'rb' ))
 
 # initialize API
-app = Flask( __name__ )
+app = Flask(__name__)
 
-@app.route( '/predict', methods=['POST'] )
+@app.route('/predict', methods=['POST'])
 def healthinsurance_predict():
     test_json = request.get_json()
 

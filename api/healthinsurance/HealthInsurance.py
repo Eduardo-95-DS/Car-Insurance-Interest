@@ -5,7 +5,7 @@ import pandas as pd
 class HealthInsurance(object):
     
     def __init__(self):        
-        self.home_path='/home/soturno/Desktop/pa04/'
+        self.home_path=''
         self.annual_premium_scaler =            pickle.load(open(self.home_path + 'parameters/annual_premium_scaler.pkl','rb'))
         self.age_scaler =                       pickle.load(open(self.home_path + 'parameters/age_scaler.pkl','rb'))
         self.vintage_scaler =                   pickle.load(open(self.home_path + 'parameters/vintage_scaler.pkl','rb'))
