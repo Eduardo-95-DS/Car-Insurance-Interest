@@ -7,7 +7,7 @@ function onOpen() {
 }
 
 // Production Server
-host_production = 'health-insurance-model.herokuapp.com'
+host_production = 'car-insurance-interest.onrender.com'
 
 // ----------------------------
 // ----- Helper Function ------

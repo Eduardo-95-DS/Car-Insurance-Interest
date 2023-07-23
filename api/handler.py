@@ -5,7 +5,7 @@ from healthinsurance.HealthInsurance import HealthInsurance
 
 # loading model
 #path = '/home/soturno/Desktop/pa04/'
-model = pickle.load(open('model/lgbm.pkl', 'rb' ))
+model = pickle.load(open('lgbm.pkl', 'rb' ))
 
 # initialize API
 app = Flask(__name__)
