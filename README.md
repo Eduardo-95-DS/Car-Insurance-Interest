@@ -17,11 +17,8 @@ The goals are:
 - Develop an API capable of returning a "propensity score" of each client to purchase the insurance, along with a manual on how to use it.    
 
 # **2. Business assumptions**
-The assumptions about the business problem are as follows:       
-- Days with stores closed and/or zero sales were not taken into account.       
-- Stores without close competitors had the distance fixed at 200000, which is a lot higher than other distances, as a way of preserving the rows, instead of deleting them.   
 
-
+It was assumed that the company's profit in this campaign is the difference between how much the clients will pay for the car insurance and the costs involved the calls from the sales team.  
 
 # **3. Solution strategy**
 **Step 01. Data description:** My goal is to use statistics metrics to identify data outside the scope of business.   
