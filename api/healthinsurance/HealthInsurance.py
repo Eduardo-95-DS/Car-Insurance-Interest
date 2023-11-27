@@ -32,7 +32,7 @@ class HealthInsurance(object):
         
 #         df2['vehicle_damage']=df2['vehicle_damage'].apply(lambda x: 1 if x == 'Yes' else 0)
         
-        df2['driving_license']=df2['driving_license'].apply(lambda x: 'Yes' if x == 1 else 'No')
+        df2['driving_license'] = df2['driving_license'].apply(lambda x: 'Yes' if x == 1 else 'No')
         
         df2['previously_insured']=df2['previously_insured'].apply(lambda x: 'Yes' if x == 1 else 'No')
 #         
