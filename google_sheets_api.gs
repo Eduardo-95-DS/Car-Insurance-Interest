@@ -58,17 +58,17 @@ function PredictAll(){
     // Json file to send
     var json_send = new Object();
     json_send['id'] = json['id']
-    json_send['gender'] = json['gender']
-    json_send['age'] =  json['age']
-    json_send['driving_license'] = json['driving_license']
-    json_send['region_code'] = json['region_code']
-    json_send['previously_insured'] = json['previously_insured']
-    json_send['vehicle_age'] = json['vehicle_age']
-    json_send['vehicle_damage'] = json['vehicle_damage']
-    json_send['annual_premium'] = json['annual_premium']
-    json_send['policy_sales_channel'] = json['policy_sales_channel']
-    json_send['vintage'] = json['vintage']
-    json_send['response'] = json['response']
+    json_send['Gender'] = json['Gender']
+    json_send['Age'] =  json['Age']
+    json_send['Driving_License'] = json['Driving_License']
+    json_send['Region_Code'] = json['Region_Code']
+    json_send['Previously_Insured'] = json['Previously_Insured']
+    json_send['Vehicle_Age'] = json['Vehicle_Age']
+    json_send['Vehicle_Damage'] = json['Vehicle_Damage']
+    json_send['Annual_Premium'] = json['Annual_Premium']
+    json_send['Policy_Sales_Channel'] = json['Policy_Sales_Channel']
+    json_send['Vintage'] = json['Vintage']
+    // json_send['response'] = json['response']
 
     // Propensity score
     pred = ApiCall( json_send, '/predict' );
