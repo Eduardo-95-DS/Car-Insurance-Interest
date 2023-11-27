@@ -10,7 +10,7 @@ model = pickle.load(open('model/lgbm.pkl', 'rb' ))
 # initialize API
 app = Flask(__name__)
 
-@app.route('/predict', methods=['POST'])
+@app.route('/predict', methods=['POST'])	
 def healthinsurance_predict():
     test_json = request.get_json()
 

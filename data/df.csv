@@ -1,0 +1,6 @@
+,id,previously_insured,annual_premium,vintage,response,gender,age,region_code,policy_sales_channel,driving_license,vehicle_age,vehicle_damage
+0,1,0,40454.0,217,1,Male,44,28.0,26.0,1,> 2 Years,Yes
+1,2,0,33536.0,183,0,Male,76,3.0,26.0,1,1-2 Year,No
+2,3,0,38294.0,27,1,Male,47,28.0,26.0,1,> 2 Years,Yes
+3,4,1,28619.0,203,0,Male,21,11.0,152.0,1,< 1 Year,No
+4,5,1,27496.0,39,0,Female,29,41.0,152.0,1,< 1 Year,No
