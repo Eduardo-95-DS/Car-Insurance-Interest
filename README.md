@@ -75,6 +75,8 @@ The result below emulates the production environment; the tuned model was traine
 **Precision at 20%: 0.3566**       
 **Precision at 50%: 0.2443**       
 
+# **7. Business results**   
+
 The revenue was estimated on $500,00 per car insurance bought, the cost $50,00 per call, and profit the former minus the latter.    
 
 ![download](https://github.com/Soturno95/Car-Insurance-Interest/assets/95311171/e2dc98e4-7e0f-4319-9b7f-f9000520f6c4)   
