@@ -81,9 +81,12 @@ The revenue was estimated on $500,00 per car insurance bought, the cost $520,00 
 
 The baseline lineplot emulates the current business operation, where calls are made randomly throughout client's list.
 
-The LGBM model emulates the implementation of the algorithm; note that now it's only needed to reachout 50% of the base to maximize profit. 
+![baseline](https://github.com/Eduardo-95-DS/Car-Insurance-Interest/assets/95311171/683daccb-33b1-4c62-9b7f-3b0669bbb7e5)    
 
-<!--- [download](https://github.com/Soturno95/Car-Insurance-Interest/assets/95311171/e2dc98e4-7e0f-4319-9b7f-f9000520f6c4)-->   
+
+The LGBM model emulates the implementation of the algorithm; note that now it's only needed to reachout 50% of the base to maximize profit. 
+    
+![model](https://github.com/Eduardo-95-DS/Car-Insurance-Interest/assets/95311171/95211484-7359-4795-abef-1bd238aaabf9)
 
 ## **7.1 Business questions**   
 
