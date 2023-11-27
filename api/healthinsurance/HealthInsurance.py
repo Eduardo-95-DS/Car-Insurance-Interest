@@ -17,11 +17,13 @@ class HealthInsurance(object):
     def data_cleaning(self, df1):
         # 1.1. Rename Columns
         
-        cols_new = ['id', 'gender', 'age', 'driving_license', 'region_code', 'previously_insured', 'vehicle_age', 
-                    'vehicle_damage', 'annual_premium', 'policy_sales_channel', 'vintage','response']
+        # cols_new = ['id', 'gender', 'age', 'driving_license', 'region_code', 'previously_insured', 'vehicle_age', 
+                    #'vehicle_damage', 'annual_premium', 'policy_sales_channel', 'vintage','response']
 
         # rename 
-        df1.columns = cols_new
+        # df1.columns = cols_new
+        
+        df1.rename(columns={'Gender': 'gender', 'Age':'age', 'Driving_License': 'driving_license', 'Region_Code':'region_code', 'Previously_Insured':'previously_insured', 'Vehicle_Age':'vehicle_age', 'Vehicle_Damage':'vehicle_damage', 'Annual_Premium':'annual_premium', 'Policy_Sales_Channel':'policy_sales_channel', 'Vintage':'vintage'},inplace=True)
         
         return df1 
 
