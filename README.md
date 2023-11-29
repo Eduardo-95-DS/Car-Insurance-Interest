@@ -70,7 +70,10 @@ The result below emulates the production environment; the tuned model was traine
 ![download (3)](https://github.com/Soturno95/Car-Insurance-Interest/assets/95311171/e16d527a-fe7b-4850-8216-a0948c3fdf32)
 
 **Precision at 20%: 0.3566**       
-**Precision at 50%: 0.2443**       
+**Precision at 50%: 0.2443**  
+
+**Recall at 20%: 0.5753**       
+**Recall at 50%: 0.9853**       
 
 # **7. Business results**   
 
