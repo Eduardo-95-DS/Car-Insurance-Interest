@@ -77,7 +77,7 @@ The result below emulates the production environment; the tuned model was traine
 
 # **7. Business results**   
 
-The revenue was estimated on $500,00 per car insurance bought, the cost $520,00 per call (assuming all costs associated like employess salary, property rental, call costs, etc) and profit the former minus the latter.    
+The revenue was estimated on $500,00 per car insurance bought, the cost $20,00 per call (assuming all costs associated like employess salary, property rental, call costs, etc) and profit the former minus the latter.    
 
 The baseline lineplot emulates the current business operation, where calls are made randomly throughout client's list.
 
